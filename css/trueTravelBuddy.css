@@ -1,0 +1,36 @@
+.services-child{
+    max-width:1360px !important
+}
+.list-bullets{
+    text-align: left;
+    
+}
+.list-bullets li{
+    margin-bottom: 5px;
+    
+}
+.text-black{
+    text-align: left;
+    
+}
+.list-bullets li::before {
+        position: absolute;
+        content: "";
+        width: 6px;
+        height: 6px;
+        background: #4d4d4d;
+        left: 0;
+        /* top: 50%; */
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        border-radius: 50%;
+        margin: 15px 15px 0px 0px;
+}
+.service-image{
+    display: flex;
+}
+.pdr-20{
+    padding-right:25px;
+}
