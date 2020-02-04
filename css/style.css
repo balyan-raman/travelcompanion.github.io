@@ -1245,7 +1245,11 @@ h1, h2, h3, h4, h5,
 
   }
 
-  
+  @media (max-width: 768px) {
+    .bg-images-4{
+      background-position: 50% 0px;
+    }
+  }
 
   @media (max-width: 768px) {
     .special-experience-items{
