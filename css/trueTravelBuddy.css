@@ -30,6 +30,8 @@
 }
 .service-image{
     display: flex;
+    width: 250px;
+    height: 250px;
 }
 .pdr-20{
     padding-right:25px;
