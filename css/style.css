@@ -1223,6 +1223,15 @@ h1, h2, h3, h4, h5,
     width: 100px;
     height: 100px;
   }
+
+  @media (max-width: 768px) {
+    .image-icons{
+      width: 200px;
+      height: 200px;
+      margin-bottom: 25px;
+    }
+  }
+
   .bg-images{
     background-position: 50% 0px;
   }
@@ -1234,5 +1243,16 @@ h1, h2, h3, h4, h5,
   .bg-images-4{
     background-position: 0px 80%;
 
+  }
+
+  
+
+  @media (max-width: 768px) {
+    .special-experience-items{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
   }
   
