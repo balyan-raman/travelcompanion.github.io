@@ -30,16 +30,23 @@
 }
 .service-image{
     display: flex;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 @media (max-width: 768px) {
     .service-image{
-        display: flex;
-        width: 100%;
+        display: inline;
+        width: 250px;
         height: 250px;
     }
   }
 .pdr-20{
     padding-right:25px;
 }
+
+@media (max-width: 768px) {
+    .ttb-mobile-bg{
+        background-position: 100% 0px;
+    }
+}
+

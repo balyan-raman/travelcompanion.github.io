@@ -1244,10 +1244,19 @@ h1, h2, h3, h4, h5,
     background-position: 0px 80%;
 
   }
+  .bg-images-3{
+    background-position: 0px 100%;
+
+  }
 
   @media (max-width: 768px) {
     .bg-images-4{
       background-position: 50% 0px;
+    }
+  }
+  @media (max-width: 768px) {
+    .bg-images-3{
+      background-position: 100% 0px;
     }
   }
 
@@ -1259,4 +1268,43 @@ h1, h2, h3, h4, h5,
 
     }
   }
-  
+
+  .service-img-home{
+    height: 450px !important;
+    width: 400px !important
+    ;
+  }
+  @media (max-width: 768px) {
+    .spoc-mobile-bg{
+        background-position: 85% 0px;
+    }
+}
+
+@media (max-width: 768px) {
+  .ds-mobile-bg{
+      background-position: 20% 0px;
+  }
+}
+
+.logo-image{
+  padding: 5px 0px;
+  width: 150px;
+  height: 80px;
+}
+
+@media (max-width: 768px) {
+  .logo-image{
+    width: 100px;
+    height: 55px;
+  }
+}
+
+.contact-bg{
+  background-position: 0px 100%;
+}
+
+@media (max-width: 768px) {
+  .contact-bg{
+    background-position: 85% 0px;
+  }
+}
