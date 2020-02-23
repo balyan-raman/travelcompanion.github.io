@@ -77,6 +77,27 @@ jQuery(document).ready(function($) {
 			}
 		}) 
 
+		// code to hide sidebar when click on special experiences tab in mobile
+		$('body').on('click', '#spec', function(e) {
+			if (typeof window !== 'undefined') {
+				var windowWidth = window.innerWidth;
+				if(windowWidth<768){
+					var $this = $(this);
+					e.preventDefault();
+		
+					if ( $('body').hasClass('offcanvas-menu') ) {
+						$('body').removeClass('offcanvas-menu');
+						$this.removeClass('active');
+					} else {
+						$('body').addClass('offcanvas-menu');
+						$this.addClass('active');
+					}
+					window.location.href='index.html#special-experience'
+				}
+			}
+			
+		}) 
+
 		// click outisde offcanvas
 		$(document).mouseup(function(e) {
 	    var container = $(".site-mobile-menu");
